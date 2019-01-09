@@ -1,0 +1,24 @@
+<!doctype HTML>
+<html>
+<script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
+<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.5.0/aframe/build/aframe-ar.js"> </script>
+  <body style='margin : 0px; overflow: hidden;'>
+    <a-scene embedded arjs='trackingMethod: best;'>
+<a-anchor hit-testing-enabled='true'>
+
+
+
+  <a-entity position="0 0.5 0.5"
+            scale="0.03 0.03 0.03"
+            rotation="0.5 0.3 0.2"
+            obj-model="obj: url(https://raw.githubusercontent.com/jesslynjovanka/3dd/master/Bigmax_White_OBJ.obj)";
+            material="src: url(https://res.cloudinary.com/dio9z2wah/image/upload/v1547008926/12226.jpg)">
+
+
+  </a-entity>
+
+</a-anchor>
+  	<a-camera-static/>
+    </a-scene>
+  </body>
+</html>
